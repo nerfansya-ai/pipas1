@@ -1,0 +1,186 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #26352a;
+    line-height: 1.6;
+}
+
+header h1{
+   margin-bottom: 0%;
+   line-height: 0.5;
+   font-size: 100px;
+   font-style:inherit;
+   transform: translateY(-30px)
+}
+
+header p{
+    line-height: 2;
+}
+header{
+    background: green;
+    background-image:url(https://i.pinimg.com/1200x/3e/6a/43/3e6a43fdcddbcc4c16eee3665985dd43.jpg);
+    background-size: cover;
+    color:white;
+    padding: 50px 5px;
+}
+
+.menu{
+    text-align: center;
+    background: rgb(0, 61, 0);
+    color: white;
+
+}
+.menu a.active{
+    color: #fbfcfc !important;
+    border-bottom: 2px solid #fbfcfc;
+    font-weight: bold;
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: inline-block;
+    text-align: right;
+}
+
+nav b{
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    padding-right: 500px;
+    text-align: left;
+}
+section{
+    padding: 15px;
+    background: white;
+    border-radius: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+section h2{
+    width: 100%;
+    align-items:center
+    
+}
+.Pengertian{
+    padding: 15px;
+    margin: 10px;
+    background: white;
+    border-radius: 20px;
+    max-width: 50%; 
+}
+footer{
+    background:#1c4226;
+    color:white;
+    margin:0;
+    padding: 20px 5px;
+}
+.isi{
+    display: flex;
+}
+.tujuan{
+    width: 300px;
+    padding-right: 20px;
+}
+.alamat{
+    width: 300px;
+    padding-right: 50px;
+    margin-left: 40px;
+}
+.tombol{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1c4226;
+    max-width: 800px;
+    padding:10px 20px;
+    border: none;
+    isolation: isolate;
+
+}
+.kembali{
+    max-width: 300px;
+    display: inline-block;
+    padding-left: 0;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #1c4226;
+    margin-right: 300px;
+}
+.selanjutnya{
+    max-width: 300px;
+    display: inline-block;
+    padding-left: 0;
+    background-color: #1c4226;
+    isolation: isolate;
+    margin-left: 430px;
+    text-align: right;
+
+}
+.copy{
+    text-align: center;
+    display: flex;
+}
+.card{
+    width: 300px;
+    margin: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459);
+    display: inline-block;
+    overflow: hidden;
+    height: 420px;
+}
+.card h3{
+ width: 100%;
+ margin-top: 0%;
+ padding-bottom: 150px;
+ background-image: linear-gradient(rgba(12, 126, 12, 0.5),rgba(12, 126, 12, 0.5)),url(pexels-budget-bizar-92378004-12308283.jpg);
+ background-size: cover;
+ object-fit: cover;
+ border-radius: 10px 10px 0 0;
+ height: 100%;
+ color: white;
+ text-align: center;
+ padding-top:0;
+}
+
+.card p{
+    padding-left: 10px;
+    height: 150px;
+    overflow: hidden;
+}
+.selengkapnya{
+    isolation: isolate;
+    color: black;
+    font-style:bold;
+    background-color: #1c4226;
+}
+html{
+ scroll-behavior: smooth;
+}
+.back a{
+    color: white;
+    font-size: 30px;
+}
+.back{
+    display: flex;
+    margin-left:0 ;
+    position: left;
+    align-self: flex-start;
+    left: 20px;
+    position: absolute;
+    background: #1c4226;
+}
+
+
