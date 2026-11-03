@@ -30,8 +30,22 @@ header{
     background: rgb(0, 61, 0);
     color: white;
     white-space: nowrap;
-
+    top:0;
+    left:0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    animation: ubah linear both;
+    animation-timeline:scroll() ;
+    animation-range: auto;
 }
+@keyframes ubah {
+    to{
+        background: rgba(225,225,225,0.7);
+        backdrop-filter: blur(10px);
+    }
+}  
+   
 .menu a.active{
     color: #fbfcfc !important;
     border-bottom: 2px solid #fbfcfc;
@@ -65,6 +79,7 @@ section{
     max-width: 1000px;
     margin-left: auto;
     margin-right: 50px;
+    margin-top: 20px;
 }
 
 section h2{
@@ -115,6 +130,7 @@ footer{
     text-align: left;
     background-color: #1c4226;
     margin-right: 300px;
+    border-radius: 10px;
 }
 .selanjutnya{
     max-width: 300px;
@@ -124,6 +140,7 @@ footer{
     isolation: isolate;
     margin-left: 430px;
     text-align: right;
+    border-radius: 10px;
 
 }
 .copy{
@@ -131,16 +148,17 @@ footer{
     display: flex;
 }
 .card{
-    width: 300px;
+    width: 350px;
     margin: 50px;
     margin-top: 50px;
-    margin-right: 50px;
+    margin-right: 10px;
     background-color: whitesmoke;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459);
     display: inline-block;
     overflow: hidden;
-    height: 420px;
+    height: 415px;
+    padding-bottom: 10px;
 }
 .card1 h3{
  width: 100%;
@@ -222,6 +240,9 @@ footer{
     color: black;
     font-style:bold;
     background-color: #1c4226;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    width: 100%;
 }
 html{
  scroll-behavior: smooth;
@@ -238,6 +259,7 @@ html{
     left: 20px;
     position: absolute;
     background: #1c4226;
+    margin-top: 20px;
 }
 
 
