@@ -29,6 +29,7 @@ header{
     text-align: center;
     background: rgb(0, 61, 0);
     color: white;
+    white-space: nowrap;
 
 }
 .menu a.active{
@@ -141,7 +142,63 @@ footer{
     overflow: hidden;
     height: 420px;
 }
-.card h3{
+.card1 h3{
+ width: 100%;
+ margin-top: 0%;
+ padding-bottom: 150px;
+ background-image: linear-gradient(rgba(12, 126, 12, 0.5),rgba(12, 126, 12, 0.5)),url(pexels-budget-bizar-92378004-12308283.jpg);
+ background-size: cover;
+ object-fit: cover;
+ border-radius: 10px 10px 0 0;
+ height: 100%;
+ color: white;
+ text-align: center;
+ padding-top:0;
+}
+
+.card2 h3{
+ width: 100%;
+ margin-top: 0%;
+ padding-bottom: 150px;
+ background-image: linear-gradient(rgba(12, 126, 12, 0.5),rgba(12, 126, 12, 0.5)),url(pexels-budget-bizar-92378004-12308283.jpg);
+ background-size: cover;
+ object-fit: cover;
+ border-radius: 10px 10px 0 0;
+ height: 100%;
+ color: white;
+ text-align: center;
+ padding-top:0;
+}
+
+.card3 h3{
+ width: 100%;
+ margin-top: 0%;
+ padding-bottom: 150px;
+ background-image: linear-gradient(rgba(12, 126, 12, 0.5),rgba(12, 126, 12, 0.5)),url(pexels-budget-bizar-92378004-12308283.jpg);
+ background-size: cover;
+ object-fit: cover;
+ border-radius: 10px 10px 0 0;
+ height: 100%;
+ color: white;
+ text-align: center;
+ padding-top:0;
+}
+
+.card4 h3{
+ width: 100%;
+ margin-top: 0%;
+ padding-bottom: 150px;
+ background-image: linear-gradient(rgba(12, 126, 12, 0.5),rgba(12, 126, 12, 0.5)),url(pexels-budget-bizar-92378004-12308283.jpg);
+ background-size: cover;
+ object-fit: cover;
+ border-radius: 10px 10px 0 0;
+ height: 100%;
+ color: white;
+ text-align: center;
+ padding-top:0;
+}
+
+.card5 h3{
  width: 100%;
  margin-top: 0%;
  padding-bottom: 150px;
