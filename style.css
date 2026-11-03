@@ -64,6 +64,10 @@ nav a{
     display: inline-block;
     text-align: right;
 }
+.menu a:hover{
+    transform: scale(1.1);
+    text-shadow: 8px 4px 8px #f4f4f4;
+}
 
 nav b{
     color: white;
@@ -120,7 +124,13 @@ footer{
     padding:10px 20px;
     border: none;
     isolation: isolate;
+    border-radius: 10px;
 
+}
+.tombol:hover{
+    background-color: #1c4226;
+    transform: scale(1.1);
+    font-style: bold;
 }
 .kembali{
     max-width: 300px;
@@ -157,8 +167,9 @@ footer{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.459);
     display: inline-block;
     overflow: hidden;
-    height: 415px;
+    height: 425px;
     padding-bottom: 10px;
+
 }
 .card1 h3{
  width: 100%;
@@ -171,7 +182,7 @@ footer{
  height: 100%;
  color: white;
  text-align: center;
- padding-top:0;
+ padding-top:20px;
 }
 
 .card2 h3{
@@ -185,7 +196,7 @@ footer{
  height: 100%;
  color: white;
  text-align: center;
- padding-top:0;
+ padding-top:20px;
 }
 
 .card3 h3{
@@ -199,7 +210,7 @@ footer{
  height: 100%;
  color: white;
  text-align: center;
- padding-top:0;
+ padding-top:20px;
 }
 
 .card4 h3{
@@ -213,7 +224,7 @@ footer{
  height: 100%;
  color: white;
  text-align: center;
- padding-top:0;
+ padding-top:20px;
 }
 
 .card5 h3{
@@ -227,7 +238,7 @@ footer{
  height: 100%;
  color: white;
  text-align: center;
- padding-top:0;
+ padding-top:20px;
 }
 
 .card p{
@@ -260,6 +271,14 @@ html{
     position: absolute;
     background: #1c4226;
     margin-top: 20px;
+    border-radius: 10px;
 }
-
+.back:hover{
+    transform: scale(1.1);
+}
+.card nav a:hover{
+   text-shadow:8px 4px 8px #fbfcfc;
+   font-style: bold;
+   transform: translateY(-2px);
+}
 
