@@ -46,10 +46,10 @@ header{
     width: 100%;
     position: fixed;
     z-index: 1000;
-    animation: ubah linear both;
-    animation-timeline:scroll() ;
+    animation: ubah linear both,masuk1 1s linear both;
+    animation-timeline:scroll(), auto;
     animation-range: auto;
-    animation: masuk1 1s linear both;
+
 }
 @keyframes ubah {
     to{
@@ -163,6 +163,17 @@ footer{
     background-color: #1c4226;
     margin-right: 300px;
     border-radius: 10px;
+    animation: masuk2 1s linear both;
+}
+@keyframes masuk2 {
+    from{
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
 .kembali:hover{
     background-color: #1c4226;
@@ -178,7 +189,18 @@ footer{
     margin-left: 410px;
     text-align: right;
     border-radius: 10px;
+    animation:masuk3 1s linear both;
 
+}
+@keyframes masuk3 {
+    from{
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateZ(0);
+    }
 }
 .selanjutnya:hover{
     transform: scale(1.1);
@@ -305,6 +327,7 @@ html{
     background: #1c4226;
     margin-top: 20px;
     border-radius: 10px;
+    animation:masuk1 1s linear both;
 }
 .back:hover{
     transform: scale(1.1);
