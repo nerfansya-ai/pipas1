@@ -18,11 +18,22 @@ header p{
     line-height: 2;
 }
 header{
-    background: green;
     background-image:url(https://i.pinimg.com/1200x/3e/6a/43/3e6a43fdcddbcc4c16eee3665985dd43.jpg);
     background-size: cover;
     color:white;
     padding: 50px 5px;
+    animation: masuk 1s linear both;
+}
+
+@keyframes masuk {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .menu{
@@ -38,6 +49,7 @@ header{
     animation: ubah linear both;
     animation-timeline:scroll() ;
     animation-range: auto;
+    animation: masuk1 1s linear both;
 }
 @keyframes ubah {
     to{
@@ -45,7 +57,17 @@ header{
         backdrop-filter: blur(10px);
     }
 }  
-   
+ @keyframes masuk1 {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+ }  
 .menu a.active{
     color: #fbfcfc !important;
     border-bottom: 2px solid #fbfcfc;
@@ -153,7 +175,7 @@ footer{
     padding-left: 0;
     background-color: #1c4226;
     isolation: isolate;
-    margin-left: 430px;
+    margin-left: 410px;
     text-align: right;
     border-radius: 10px;
 
@@ -178,7 +200,9 @@ footer{
     overflow: hidden;
     height: 425px;
     padding-bottom: 10px;
-
+    animation: lihat 1s linear both;
+    animation-timeline:scroll() ;
+    animation-range: entry 0% cover 40%;
 }
 .card1 h3{
  width: 100%;
@@ -290,4 +314,13 @@ html{
    font-style: bold;
    transform: translateY(-2px);
 }
-
+@keyframes lihat {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
