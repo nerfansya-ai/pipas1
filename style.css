@@ -1,7 +1,7 @@
 body{
     font-family: arial,sans-serif;
     margin: 0;
-    background-color: #f4f4f4;
+    background-color: white;
     color: #26352a;
     line-height: 1.6;
 }
@@ -130,7 +130,7 @@ footer{
 .tombol:hover{
     background-color: #1c4226;
     transform: scale(1.1);
-    font-style: bold;
+    font-weight: bold;
 }
 .kembali{
     max-width: 300px;
@@ -142,6 +142,11 @@ footer{
     margin-right: 300px;
     border-radius: 10px;
 }
+.kembali:hover{
+    background-color: #1c4226;
+    transform: scale(1.1);
+    font-weight: bold;
+}
 .selanjutnya{
     max-width: 300px;
     display: inline-block;
@@ -152,6 +157,10 @@ footer{
     text-align: right;
     border-radius: 10px;
 
+}
+.selanjutnya:hover{
+    transform: scale(1.1);
+    font-weight: bold;
 }
 .copy{
     text-align: center;
