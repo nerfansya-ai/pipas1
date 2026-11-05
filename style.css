@@ -51,6 +51,16 @@ header{
     animation-range: auto;
 
 }
+@media screen and (max-width: 980px) {
+    .menu {
+        white-space: nowrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-right: 10px;
+    }
+}
 @keyframes ubah {
     to{
         background: rgba(225,225,225,0.7);
@@ -95,7 +105,7 @@ nav b{
     color: white;
     text-decoration: none;
     padding: 0;
-    padding-right: 500px;
+    padding-right: 400px;
     text-align: left;
 }
 section{
@@ -106,6 +116,26 @@ section{
     margin-left: auto;
     margin-right: 50px;
     margin-top: 20px;
+}
+@media screen and (max-width: 980px) {
+    section{
+        padding: 15px;
+        background: white;
+        border-radius: 20px;
+        max-width: 100%;
+        margin-left: 20px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    
+}
+@media screen and (max-width: 980px) {
+    nav b {
+        max-width: 100%;
+        margin-right: 40px;
+        margin-left: auto;
+        padding-right: 50px;
+    }
 }
 
 section h2{
@@ -222,9 +252,7 @@ footer{
     overflow: hidden;
     height: 425px;
     padding-bottom: 10px;
-    animation: lihat 1s linear both;
-    animation-timeline:scroll() ;
-    animation-range: entry 0% cover 40%;
+    
 }
 .card1 h3{
  width: 100%;
@@ -327,6 +355,7 @@ html{
     background: #1c4226;
     margin-top: 20px;
     border-radius: 10px;
+    margin-right: 20px;
     animation:masuk1 1s linear both;
 }
 .back:hover{
@@ -336,14 +365,4 @@ html{
    text-shadow:8px 4px 8px #fbfcfc;
    font-style: bold;
    transform: translateY(-2px);
-}
-@keyframes lihat {
-    from{
-        opacity: 0;
-        transform: translateY(50px);
-    }
-    to{
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
