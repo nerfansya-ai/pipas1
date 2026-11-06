@@ -23,6 +23,7 @@ header{
     color:white;
     padding: 50px 5px;
     animation: masuk 1s linear both;
+    height: 600px;
 }
 
 @keyframes masuk {
